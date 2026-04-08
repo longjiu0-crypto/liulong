@@ -10,7 +10,7 @@
 ^https://du\.baicizhan\.com url script-response-body https://raw.githubusercontent.com/liul0ng/quanx/refs/heads/main/bohe.js
 
 [mitm]
-hostname = du\.baicizhan\.com
+hostname = du.baicizhan.com
 *
 *
 */
