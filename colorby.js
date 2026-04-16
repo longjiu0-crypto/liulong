@@ -10,7 +10,7 @@
 ^https://apipro\.colorby\.cn\/api\/user\/me\/membership url script-response-body https://raw.githubusercontent.com/liul0ng/quanx/refs/heads/main/colorby.js
 
 [mitm]
-hostname = du.baicizhan.com
+hostname = apipro.colorby.cn
 *
 *
 */
