@@ -10,7 +10,7 @@
 ^https://api\.tuzhitong\.com/VipManage/User/GetUserVipManage url script-response-body https://raw.githubusercontent.com/liul0ng/quanx/refs/heads/main/tuzhi.js
 
 [mitm]
-hostname = apipro.colorby.cn
+hostname = api.tuzhitong.com
 *
 *
 */
