@@ -14,8 +14,14 @@ hostname = api.kotobaheworld.com
 *
 *
 */
-let obj = JSON.parse($response.body);
-obj.result.isVip = 1;
-obj.result.vipStartTime = 1735689600;
-obj.result.vipEndTime = 4102416000;
-$done({body: JSON.stringify(obj)});
+let body = $response.body;
+let obj = JSON.parse(body);
+
+
+    obj.result.isVip = 1;
+    obj.result.vipStartTime = "2025-01-01 00:00:00";
+    obj.result.vipEndTime = "2099-12-31 23:59:59";
+
+
+body = JSON.stringify(obj);
+$done({body});
